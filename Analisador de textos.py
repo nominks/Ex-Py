@@ -1,0 +1,12 @@
+n1 = input(str('Digite seu nome completo:'))
+print('Analisando seu nome...')
+print('Seu nome em maiúsculo é:', n1.upper())
+print('Seu nome em minúsculo é:', n1.lower())
+x = n1.replace(' ', '')
+print('Seu nome tem ao todo:', len(x))
+print('Seu nome dividido com traços fica:','-'.join(n1))
+n2 = n1.strip().split()
+n3 = n2 [0]
+print('Seu primeiro nome é:', n3, 'E ele tem:',len(n3),'letras.')
+cp = n1.capitalize()
+print('Seu nome capitalizado fica:',cp)
